@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: projective stencil - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Terry\AppData\Local\Temp\RSPE27.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/projective stencil.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Terry\Desktop\projective stencil\md2m-stencil.cpp"
+]
+Creating command line "cl.exe @C:\Users\Terry\AppData\Local\Temp\RSPE27.tmp" 
+Creating temporary file "C:\Users\Terry\AppData\Local\Temp\RSPE28.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/projective stencil.pdb" /debug /machine:I386 /out:"Debug/projective stencil.exe" /pdbtype:sept 
+".\Debug\md2m-stencil.obj"
+]
+Creating command line "link.exe @C:\Users\Terry\AppData\Local\Temp\RSPE28.tmp"
+<h3>Output Window</h3>
+Compiling...
+md2m-stencil.cpp
+c:\users\terry\desktop\projective stencil\md2m-stencil.cpp(12) : fatal error C1083: Cannot open include file: 'md2m.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+projective stencil.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

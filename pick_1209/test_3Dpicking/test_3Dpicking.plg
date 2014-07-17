@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: test_3Dpicking - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Terry\AppData\Local\Temp\RSP7901.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/test_3Dpicking.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\Data\Computer Graphic\vc6\pick_1209\test_3Dpicking\work.cpp"
+]
+Creating command line "cl.exe @C:\Users\Terry\AppData\Local\Temp\RSP7901.tmp" 
+Creating temporary file "C:\Users\Terry\AppData\Local\Temp\RSP7902.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/test_3Dpicking.pdb" /debug /machine:I386 /out:"Debug/test_3Dpicking.exe" /pdbtype:sept 
+".\Debug\work.obj"
+]
+Creating command line "link.exe @C:\Users\Terry\AppData\Local\Temp\RSP7902.tmp"
+<h3>Output Window</h3>
+Compiling...
+work.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+test_3Dpicking.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

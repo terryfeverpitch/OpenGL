@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: shooting duck - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Terry\AppData\Local\Temp\RSPF8D9.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/shooting duck.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Data\Programming\Computer Graphics\shooting duck\duck.cpp"
+"D:\Data\Programming\Computer Graphics\shooting duck\main.cpp"
+]
+Creating command line "cl.exe @C:\Users\Terry\AppData\Local\Temp\RSPF8D9.tmp" 
+Creating temporary file "C:\Users\Terry\AppData\Local\Temp\RSPF8EA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/shooting duck.pdb" /debug /machine:I386 /out:"Debug/shooting duck.exe" /pdbtype:sept 
+".\Debug\duck.obj"
+".\Debug\main.obj"
+]
+Creating command line "link.exe @C:\Users\Terry\AppData\Local\Temp\RSPF8EA.tmp"
+<h3>Output Window</h3>
+Compiling...
+duck.cpp
+main.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+shooting duck.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

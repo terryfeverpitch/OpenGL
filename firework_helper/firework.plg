@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: firework - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Terry\AppData\Local\Temp\RSP45FB.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/firework.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Data\Programming\Computer Graphics\vc6\firework_helper\firework.cpp"
+]
+Creating command line "cl.exe @C:\Users\Terry\AppData\Local\Temp\RSP45FB.tmp" 
+Creating temporary file "C:\Users\Terry\AppData\Local\Temp\RSP45FC.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/firework.pdb" /debug /machine:I386 /out:"Debug/firework.exe" /pdbtype:sept 
+".\Debug\firework.obj"
+]
+Creating command line "link.exe @C:\Users\Terry\AppData\Local\Temp\RSP45FC.tmp"
+<h3>Output Window</h3>
+Compiling...
+firework.cpp
+Linking...
+LINK : fatal error LNK1104: cannot open file "gifcapture.lib"
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+firework.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
